@@ -1,0 +1,130 @@
+/* .location {
+	background-color: teal;
+} */
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.location__list {
+	margin-bottom: 32px;
+}
+
+.location__item {
+	padding: 40px 32px;
+	width: 280px;
+	height: 412px;
+	background: #ffffff;
+	box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+	border-radius: 24px;
+}
+
+.location__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.location__title {
+	width: 80px;
+	height: 16px;
+	background: #f0d1a5;
+	border-radius: 4px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.location__title-name {
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+}
+
+.location__LosAgneles {
+	width: 130px;
+	background-color: #c2e297;
+}
+.location__city {
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+	letter-spacing: 0.04em;
+	color: #000000;
+	margin-bottom: 8px;
+}
+
+.location__text {
+	max-width: 179px;
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #907e82;
+	margin-bottom: 24px;
+}
+.location__schedule::before {
+	content: "";
+	/* margin-top: 24px; */
+	margin-bottom: 24px;
+	display: flex;
+	min-width: 216px;
+	border: 1px solid #e1e1e1;
+}
+
+.location__schedule::after {
+	content: "";
+	display: flex;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	min-width: 216px;
+	border: 1px solid #e1e1e1;
+}
+
+.location__working-mode {
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+	color: #000000;
+}
+
+.location__working-hours {
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+	color: #ffa5ba;
+	margin-bottom: 8px;
+}
+
+.location__contacts-link {
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #907e82;
+	text-decoration: none;
+}
